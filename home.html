@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<style>body {
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+    background: #FAF3E0 url('https://www.transparenttextures.com/patterns/paper-fibers.png') repeat;
+    color: #5A3825;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #D4AF37;
+    color: #FFF8E7;
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+    min-height: 70vh;
+}
+
+.hero-text h2 {
+    font-family: 'Lobster', cursive;
+    color: #D4AF37;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-text h3 {
+    font-style: italic;
+    color: #5A3825;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #D4AF37;
+    color: #FFF8E7;
+    padding: 0.8rem 1.5rem;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.hero-icon {
+    font-size: 5rem;
+    color: #D4AF37;
+}
+</style>
+
+<style>@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
+.hero-icon {
+    font-size: 5rem;
+    color: #D4AF37;
+    animation: float 3s ease-in-out infinite;
+}
+</style>
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>MusicMind</title> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Tipografía retro -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Cormorant+Garamond&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>MusicMind 🎶</h1> <img src="music (1).png" width="20%" >
+    </header>
+
+    <main>
+        
+    </main>
+
+    <footer>
+        <p>©  Gladis Baradales project 2025 MusicMind</p>
+    </footer>
+</body>
+</html>
+
+
+
+<div class="hero">
+    <div class="hero-text">
+        <h2>🌿 Music is the language of the soul.</h2>
+        <h3>La música es el idioma del alma.</h3>
+        <p>Welcome to MusicMind — Aprende idiomas al ritmo de la música.</p>
+        <a href="/idiomas" class="btn">🎧 Explore Languages / Explorar Idiomas</a>
+    </div>
+    <div class="hero-icon">
+        🎵
+    </div>
+</div>
+
+
+
